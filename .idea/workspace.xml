@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dcc7c5-e4e4-49c5-bc5e-755f8329e90f" name="Default Changelist" comment="" />
+    <list default="true" id="e1dcc7c5-e4e4-49c5-bc5e-755f8329e90f" name="Default Changelist" comment="iot">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/iot.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,10 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -48,6 +54,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ppLxT7FnjOvQrz2F2foPfLMjml" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +71,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3954023" />
@@ -350,11 +358,35 @@
       <workItem from="1620102433055" duration="42736000" />
       <workItem from="1620451154218" duration="43215000" />
       <workItem from="1620715128144" duration="10830000" />
+      <workItem from="1620792677886" duration="303000" />
     </task>
+    <task id="LOCAL-00001" summary="iot">
+      <created>1620792758424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620792758424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iot" />
+    <option name="LAST_COMMIT_MESSAGE" value="iot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="25" width="477" height="1032" key="#Auto_Import" timestamp="1620699994004">
