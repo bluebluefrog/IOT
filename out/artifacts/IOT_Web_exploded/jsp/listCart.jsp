@@ -78,6 +78,7 @@
 </script>
 </head>
 <body>
+<a href="start.jsp">back to iot</a>
 	<div class="container">
 		<fieldset>
 			<legend>cart list</legend>
@@ -96,11 +97,11 @@
 				</tr>
 				</c:forEach>
 					<form action="/order?method=create" method="post" enctype="multipart/form-data">
-						<label for="receiverName"><b>resiverName</b></label>
+						<label for="receiverName"><b>receiverName</b></label>
 						<input type="text" placeholder="receiver name" name="receiverName" required>
 						<label for="receiverMobile"><b>receiverMobile</b></label>
 						<input type="text" placeholder="receiver mobile" name="receiverMobile" required>
-						<label for="receiverAddress"><b>rivciverAddress</b></label>
+						<label for="receiverAddress"><b>receiverAddress</b></label>
 						<input type="text" placeholder="receiver address" name="receiverAddress" required>
 						<button type="submit">create order</button>
 					</form>

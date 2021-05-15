@@ -15,9 +15,9 @@ public class ProductMapper {
     public PageModel list(int page, int rows, String category) {
         String sql = null;
         if (category == null) {
-            sql = "select * from product limit ?,10 ";
+            sql = "select * from product limit ?,100 ";
         } else {
-            sql = "select * from product where product_id= ? limit ?,10 ";
+            sql = "select * from product where product_id= ? limit ?,100 ";
         }
         Connection connection = null;
         PreparedStatement preparedStatement = null;
