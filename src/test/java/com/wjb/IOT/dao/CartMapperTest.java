@@ -17,6 +17,5 @@ public class CartMapperTest {
         cartMapper.updateCart(cart);
         List<Cart> carts = cartMapper.showUserCart(1);
         System.out.println(carts);
-
     }
 }
